@@ -1,60 +1,36 @@
-# Site
-repository: Sovichetra/sovichetra.github.io
-# favicon: images/favicon.ico
+# site settings
+title: Forty
+subtitle: by HTML5 UP
+email: youremailaddress@gmail.com
+description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site
+author:
+street_address: 1234 Somewhere Road
+city: Nashville
+state: TN
+zip_code: 55555
+country: United States of America
+phone: (716) 555-5555
 
-# Personal info
-name: Chann Chetra 
-title: Web Developer
-email: sovichetra@live.com
-website: sovichetra.github.io
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
+tiles-count: 6
 
-# Social links
-twitter_username: sovichetra
-github_username:  Sovichetra
-# dribbble_username: jekyll
-facebook_username: sovichetra
-# flickr_username: jekyll
-instagram_username: sovichetra
-# linkedin_username: channchetra
-# pinterest_username: jekyll
-youtube_username: ChannChetra
-# googleplus_username: +jekyll
+# social settings
+500px_url:
+facebook_url:
+github_url:
+gitlab_url: https://gitlab.com/u/andrewbanchich
+googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
+instagram_url: https://instagram.com
+linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+pinterest_url:
+slack_url:
+twitter_url: https://twitter.com/andrewbanchich
 
-# About Section
-# about_title: About Me
-about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
-
-# Projects Section
-# projects_title: Projects
-
-# Experience Section
-# experience_title: Experience
-
-# Education Section
-# educaton_title: Education
-
-# More Section
-# more_title: A Little More About Me
-more_content: | # this will include new lines to allow paragraphs
-  Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-   - Climbing
-   - Gaming
-   - Knitting
-  #  - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-# Footer
-footer_show_references: true
-
-# Build settings
-remote_theme: Sovichetra/sovichetra.github.io
+# build settings
+markdown: kramdown
 
 sass:
-  sass_dir: _sass
   style: compressed
-
-plugins:
- - jekyll-seo-tag
